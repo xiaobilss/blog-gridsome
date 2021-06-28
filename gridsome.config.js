@@ -18,16 +18,14 @@ module.exports = {
     {
       use: '@gridsome/source-strapi',
       options: {
-        // apiURL: process.env.GRIDSOME_API_URL,
-        // apiURL: "http://localhost:1337",
-        apiURL: "http://106.75.218.238:1337",
+        apiURL: process.env.GRIDSOME_API_URL,
         queryLimit: 100, // Defaults to 100
         contentTypes: ['post','tag'],
         singleTypes: ['general', 'about'],
-        loginData: {
-          identifier: 'panjunyu10@163.com',
-          password: 'a123456'
-        }
+        // loginData: {
+        //   identifier: 'panjunyu10@163.com',
+        //   password: 'a123456'
+        // }
       }
     }
   ],
