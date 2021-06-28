@@ -129,7 +129,7 @@ export default {
       try {
         await axios({
           method: "POST",
-          url: "http://localhost:1337/contacts",
+          url: "http://106.75.218.238:1337/contacts",
           data: this.form,
         });
         window.alert("提交成功");
