@@ -67,6 +67,6 @@ query($id : ID!) {
 
 <script>
 export default {
-  name: "TagPage",
+  name: "tag",
 };
 </script>
