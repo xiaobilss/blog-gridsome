@@ -22,10 +22,10 @@ module.exports = {
         queryLimit: 100, // Defaults to 100
         contentTypes: ['post','tag'],
         singleTypes: ['general', 'about'],
-        // loginData: {
-        //   identifier: 'panjunyu10@163.com',
-        //   password: 'a123456'
-        // }
+        loginData: {
+          identifier: 'panjunyu10@163.com',
+          password: 'a123456'
+        }
       }
     }
   ],
