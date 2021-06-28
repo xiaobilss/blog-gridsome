@@ -43,7 +43,7 @@
             </p>
             <p>
               <span v-for="tag in item.node.tags" :key="tag.id">
-                <g-link :to="'tag/' + tag.id">{{ tag.title }}</g-link>
+                <g-link :to="'/tag/' + tag.id">{{ tag.title }}</g-link>
                 &nbsp;&nbsp;
               </span>
             </p>
