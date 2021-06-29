@@ -27,21 +27,7 @@
               <h2 class="post-title">
                 {{ item.title }}
               </h2>
-              <!-- <h3 class="post-subtitle">
-                Problems look mighty small from 150 miles up
-              </h3> -->
             </g-link>
-            <!-- <p class="post-meta">
-              Posted by
-              <a href="#!"> {{ item.node.author }}</a>
-              {{ item.node.created_at }}
-            </p>
-            <p>
-              <span v-for="tag in item.node.tags" :key="tag.id">
-                <g-link :to="'tag/' + tag.id">{{ tag.title }}</g-link>
-                &nbsp;&nbsp;
-              </span>
-            </p> -->
           </div>
         </div>
       </div>
@@ -67,6 +53,6 @@ query($id : ID!) {
 
 <script>
 export default {
-  name: "tag",
+  name: "Tag",
 };
 </script>

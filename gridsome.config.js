@@ -20,7 +20,7 @@ module.exports = {
       options: {
         apiURL: process.env.GRIDSOME_API_URL,
         queryLimit: 100, // Defaults to 100
-        contentTypes: ['post','tag'],
+        contentTypes: ['post', 'tag'],
         singleTypes: ['general', 'about'],
         loginData: {
           identifier: 'panjunyu10@163.com',
