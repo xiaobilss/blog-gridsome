@@ -20,7 +20,7 @@ module.exports = {
       options: {
         apiURL: process.env.GRIDSOME_API_URL,
         queryLimit: 100, // Defaults to 100
-        contentTypes: ['post'],
+        contentTypes: ['post', 'tag'],
         singleTypes: ['general', 'about'],
         loginData: {
           identifier: 'panjunyu10@163.com',
@@ -36,12 +36,12 @@ module.exports = {
         component: "./src/templates/Post.vue"
       }
     ],
-    // StrapiTag: [
-    //   {
-    //     path: "/tag/:id",
-    //     component: "./src/templates/Tag.vue"
-    //   }
-    // ],
+    StrapiTag: [
+      {
+        path: "/tag/:id",
+        component: "./src/templates/Tag.vue"
+      }
+    ],
   
   }
   
