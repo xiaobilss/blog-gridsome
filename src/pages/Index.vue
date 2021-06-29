@@ -28,7 +28,7 @@
             v-for="item in $page.posts.edges"
             :key="item.node.id"
           >
-            <g-link :to="'post/' + item.node.id">
+            <g-link :to="'/post/' + item.node.id">
               <h2 class="post-title">
                 {{ item.node.title }}
               </h2>
