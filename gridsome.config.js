@@ -27,12 +27,12 @@ module.exports = {
     }
   ],
   templates: {
-    StrapiPost: [
-      {
-        path: "/post/:id",
-        component: "./src/templates/Post.vue"
-      }
-    ],
+    // StrapiPost: [
+    //   {
+    //     path: "/post/:id",
+    //     component: "./src/templates/Post.vue"
+    //   }
+    // ],
     // StrapiTag: [
     //   {
     //     path: "/tag/:id",
