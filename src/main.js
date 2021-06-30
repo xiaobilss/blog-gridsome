@@ -5,8 +5,8 @@ import DefaultLayout from '~/layouts/Default.vue'
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
 
 import './assets/css/index.css'
-import './assets/js/releases'
-import './assets/js/scripts'
+import './assets/js/releases.js'
+import './assets/js/scripts.js'
 
 
 export default function (Vue, { router, head, isClient }) {
@@ -18,5 +18,7 @@ export default function (Vue, { router, head, isClient }) {
     }
   })
   
-  Vue.component('Layout', DefaultLayout)
+  Vue.component('Layout', DefaultLayout);
+
+
 }
